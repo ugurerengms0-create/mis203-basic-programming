@@ -5,6 +5,7 @@
 -Item 2 : Book , quantity '1' , Ubit price '80'
 -Delivery Fee: 20
 -Tax Percentage: 10
+-Output: 218.00 TRY
 
 **What I change?**
 Added formatting (:.2f) to all monetary outputs to ensure prices are consistently displayed with two decimal places.
