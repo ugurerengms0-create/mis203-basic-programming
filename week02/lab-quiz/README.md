@@ -7,7 +7,7 @@
 -Tax Percentage: 10
 
 **What I change?**
-Added formatting (':.2f) to all monetary outputs to ensure prices are consistently displayed with two decimal places.
+Added formatting (:.2f) to all monetary outputs to ensure prices are consistently displayed with two decimal places.
 
 **Explanation :Why 'input() must be converted before arithmetic**
 The 'input()' function in Python always returns user input as a 'string' data type, regardless of whether the user types numbers. String cannot be used directly in mathematical calculations.
