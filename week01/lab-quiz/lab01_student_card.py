@@ -1,1 +1,11 @@
-
+name = input("Enter your name:")
+id = int(input("Enter your student ID:"))
+dept = input("Enter your department:")
+git = input("Enter your GitHub name:")
+goal = input("What is your goal?:")
+print("**Student Card**")
+print(f"Name : {name}")
+print(f"Student ID: {id}")
+print(f"Department : {dept}")
+print(f"GitHub : {git}")
+print(f"Goal : {goal}")
