@@ -4,21 +4,21 @@ free_tickets = 0
 
 while True:
 
-    name = input("Customer name (or q to quit.):")
+    name = input("Customer name (or q to quit.):").strip()
     if name.lower() == "q":
         break
    
-    age = int(input("Age:"))
+    age = int(input("Age (please enter with numbers):"))
     if age < 0 or age > 120:
         print("Invalid age.")
         continue
    
-    day = input("Day (weekday/weekend):").lower()
+    day = input("Day (weekday/weekend):").strip().lower()
     if day not in ["weekday", "weekend"]:
         print("Invalid day.")
         continue
    
-    student = input("Are you a student (yes/no):").lower()
+    student = input("Are you a student (yes/no):").strip().lower()
     if student not in ["yes", "no"]:
         print("Please answer yes or no.")
         continue
