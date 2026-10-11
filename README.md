@@ -28,3 +28,20 @@ Week 2
   2. Input: Name="Deniz", Age=12, Day="weekday", Student="no" -> Result: `Deniz: 120.00 TRY (Child)` (Boundary test for age 12 upper limit)
   3. Input: Name="Mert", Age=26, Day="weekday", Student="yes" -> Result: `Mert: 200.00 TRY (Standard)` (Boundary test for student age over 25)
 - **Why does the order of the rules matter?:** The order matters because Python evaluates `if / elif` statements sequentially and stops at the first matching condition. If the Student rule were placed before the Child rule, a 10-year-old student would receive a 30% discount instead of the higher 40% Child discount.
+
+**Week 4**
+*AI Tool Used*: Gemini
+
+*Prompt Used*: "Write a Python program named carbon_tracker.py that calculates an eco-friendly sustainability score based on user commute habits and recycling practices. Import and use the datetime and random libraries. The program should ask for the user's name, format and display the current date and time using strftime, evaluate user inputs using conditional statements, output a total score out of 60 with customized feedback, and provide a daily random sustainability tip using random.choice()."
+
+*What did you change?*: I structured the code into clean, modular functions (show_welcome_message, calculate_score, get_random_tip, and main), added robust input handling for invalid choices, and ensured clean output formatting.
+
+*Tests:*
+
+Input: Name="Uğur", Commute="1" (Public Transport), Recycling="1" (Definitely yes) -> Result: Score: 60 / 60 (Congratulations! You are a true eco-friendly individual.)
+
+Input: Name="Eren", Commute="2" (Private Car), Recycling="3" (No) -> Result: Score: 15 / 60 (Time to pay a bit more attention to our daily habits!)
+
+Input: Commute="invalid" -> Result: "Invalid choice! No points added for this question." (Ensured program handles incorrect inputs gracefully without crashing).
+
+*Why does the order of the score evaluation rules matter?*: The order matters because Python evaluates if-elif statements sequentially from top to bottom and stops at the first condition that evaluates to true. Checking the highest score threshold first ensures that high scorers are correctly categorized before lower bounds are checked.
