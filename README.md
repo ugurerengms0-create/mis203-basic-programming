@@ -30,6 +30,7 @@ Week 2
 - **Why does the order of the rules matter?:** The order matters because Python evaluates `if / elif` statements sequentially and stops at the first matching condition. If the Student rule were placed before the Child rule, a 10-year-old student would receive a 30% discount instead of the higher 40% Child discount.
 
 **Week 4**
+
 *AI Tool Used*: Gemini
 
 *Prompt Used*: "Write a Python program named carbon_tracker.py that calculates an eco-friendly sustainability score based on user commute habits and recycling practices. Import and use the datetime and random libraries. The program should ask for the user's name, format and display the current date and time using strftime, evaluate user inputs using conditional statements, output a total score out of 60 with customized feedback, and provide a daily random sustainability tip using random.choice()."
