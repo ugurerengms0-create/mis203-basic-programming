@@ -45,3 +45,5 @@ Input: Name="Eren", Commute="2" (Private Car), Recycling="3" (No) -> Result: Sco
 Input: Commute="invalid" -> Result: "Invalid choice! No points added for this question." (Ensured program handles incorrect inputs gracefully without crashing).
 
 *Why does the order of the score evaluation rules matter?*: The order matters because Python evaluates if-elif statements sequentially from top to bottom and stops at the first condition that evaluates to true. Checking the highest score threshold first ensures that high scorers are correctly categorized before lower bounds are checked.
+
+*Why does the order of the score evaluation rules matter?*: The order matters because Python evaluates if-elif statements sequentially from top to bottom and stops at the first condition that evaluates to true. Checking the highest score threshold first ensures that high scorers are correctly categorized before lower bounds are checked.
