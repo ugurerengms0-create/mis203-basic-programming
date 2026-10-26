@@ -1,3 +1,7 @@
+# Explanation for Question 4: Difference between print and return
+# - return: Returns the result of the function back to where it was called. This value can be assigned
+#   to a variable and used in further operations.
+# - print: Simply outputs to the console (screen). You cannot use the value elsewhere in the program (its value becomes None).
 def calculate_subtotal(price, quantity):
     return price * quantity
 
