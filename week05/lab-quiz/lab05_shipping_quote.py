@@ -2,7 +2,10 @@
 # - return: Returns the result of the function back to where it was called. This value can be assigned
 #   to a variable and used in further operations.
 # - print: Simply outputs to the console (screen). You cannot use the value elsewhere in the program (its value becomes None).
+<<<<<<< HEAD
 
+=======
+>>>>>>> cdf3e4f0c74ec602ae228c5c33f6426130b5596a
 def calculate_subtotal(price, quantity):
     return price * quantity
 
